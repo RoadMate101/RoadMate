@@ -1,2 +1,74 @@
 [build]
   publish = "."
+
+# Old roadmate.in URLs still indexed by Google -> closest page on this site
+[[redirects]]
+  from = "/contact"
+  to = "/enquire.html"
+  status = 301
+[[redirects]]
+  from = "/contact.html"
+  to = "/enquire.html"
+  status = 301
+[[redirects]]
+  from = "/partnerships"
+  to = "/partnership.html"
+  status = 301
+[[redirects]]
+  from = "/business.html"
+  to = "/partnership.html"
+  status = 301
+[[redirects]]
+  from = "/wheelcareFranchise.html"
+  to = "/opportunity.html"
+  status = 301
+[[redirects]]
+  from = "/career.html"
+  to = "/about.html"
+  status = 301
+
+# No equivalent page yet -> homepage
+[[redirects]]
+  from = "/app.html"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/register"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/player-register"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/account"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/profile"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/pricing"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/privacy"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/terms"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/refunds"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/shipping"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/privacy_policy/*"
+  to = "/"
+  status = 301
