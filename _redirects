@@ -1,0 +1,20 @@
+# Old roadmate.in URLs still indexed by Google -> closest page on this site
+/contact                  /enquire.html      301
+/contact.html             /enquire.html      301
+/partnerships             /partnership.html  301
+/business.html            /partnership.html  301
+/wheelcareFranchise.html  /opportunity.html  301
+/career.html              /about.html        301
+
+# No equivalent page yet -> homepage
+/app.html                 /   301
+/register                 /   301
+/player-register          /   301
+/account                  /   301
+/profile                  /   301
+/pricing                  /   301
+/privacy                  /   301
+/terms                    /   301
+/refunds                  /   301
+/shipping                 /   301
+/privacy_policy/*         /   301
