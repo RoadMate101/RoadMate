@@ -34,9 +34,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/extra.css">
 </head>
 <body>
- 
+
 <header class="site-header" id="siteHeader">
   <div class="wrap">
     <a href="index.html" class="logo" aria-label="RoadMate — home">
@@ -45,8 +46,17 @@
     </a>
     <nav class="nav-links">
       <a href="about.html">Company</a>
-      <a href="opportunity.html">Opportunity</a>
-      <a href="partnership.html">Partnership</a>
+      <a href="opportunity.html">Market</a>
+      <a href="franchise-opportunity.html">Franchise Opportunity</a>
+      <div class="nav-dd">
+        <button class="nav-dd-btn" type="button" aria-haspopup="true">Partnership Opportunity</button>
+        <div class="nav-dd-menu">
+          <a href="partnership-opportunity.html">Overview</a>
+          <a href="retailers.html">Retailers</a>
+          <a href="distributors.html">Distributors</a>
+          <a href="manufacturers.html">Manufacturers</a>
+        </div>
+      </div>
       <a href="why-invest.html">Why Invest</a>
       <a href="media.html">Media</a>
     </nav>
@@ -58,16 +68,21 @@
     </div>
   </div>
 </header>
- 
+
 <div class="mobile-menu" id="mobileMenu">
   <a href="about.html">Company</a>
-  <a href="opportunity.html">Opportunity</a>
-  <a href="partnership.html">Partnership</a>
+  <a href="opportunity.html">Market</a>
+  <a href="franchise-opportunity.html">Franchise Opportunity</a>
+  <a href="industries.html">Industries</a>
+  <a href="partnership-opportunity.html">Partnership Opportunity</a>
+  <a href="retailers.html">Retailers</a>
+  <a href="distributors.html">Distributors</a>
+  <a href="manufacturers.html">Manufacturers</a>
   <a href="why-invest.html">Why Invest</a>
   <a href="media.html">Media</a>
   <a href="enquire.html" class="btn btn-primary">Become a Partner</a>
 </div>
- 
+
 <section class="hero" id="hero">
   <div class="wrap">
     <div>
@@ -87,7 +102,7 @@
       </div>
       <p style="margin-top:16px;font-size:12px;color:rgba(255,255,255,0.4);">Figures reflect RoadMate's live automobile network. Multi-industry quick commerce launches soon.</p>
     </div>
- 
+
     <div class="hero-graphic" aria-hidden="true">
       <svg class="route-svg" viewBox="0 0 600 460" preserveAspectRatio="xMidYMid meet">
         <defs>
@@ -108,13 +123,13 @@
       <div class="node-badge node-retailer" style="left:62%; top:65%;"><span class="ic"><svg class="icon"><use href="assets/sprite.svg#ic-store"></use></svg></span><span>Retailer</span></div>
       <div class="node-badge node-delivery" style="left:83%; top:30%;"><span class="ic"><svg class="icon"><use href="assets/sprite.svg#ic-bike"></use></svg></span><span>Delivery</span></div>
       <div class="node-badge node-customer" style="left:91%; top:13%;"><span class="ic"><svg class="icon"><use href="assets/sprite.svg#ic-user"></use></svg></span><span>Customer</span></div>
- 
+
       <div class="float-chip chip-foco" style="left:2%; top:2%;"><strong>FOCO Model</strong><span>Silent-partner franchise</span></div>
       <div class="float-chip chip-outlet" style="right:2%; bottom:4%;"><strong>Zero Outlet</strong><span>Fully remote territory</span></div>
     </div>
   </div>
 </section>
- 
+
 <div class="trust">
   <div class="wrap">
     <div class="trust-item"><svg class="icon"><use href="assets/sprite.svg#ic-badge-check"></use></svg><span class="l">DPIIT Recognised Startup</span></div>
@@ -124,7 +139,7 @@
     <div class="trust-item"><svg class="icon"><use href="assets/sprite.svg#ic-trophy"></use></svg><span class="l">Main Sponsor — Malappuram FC</span></div>
   </div>
 </div>
- 
+
 <section class="section" id="explore">
   <div class="wrap">
     <div class="section-head reveal">
@@ -172,7 +187,7 @@
     </div>
   </div>
 </section>
- 
+
 <section class="section bg-tint" id="momentum">
   <div class="wrap">
     <div class="section-head wide reveal">
@@ -185,10 +200,10 @@
       <div class="chain-card"><span class="ic"><svg class="icon"><use href="assets/sprite.svg#ic-truck"></use></svg></span><h4>Distributors</h4><ul><li>Reach every shop on one platform</li><li>Digital order-taking and field-team tools</li></ul></div>
       <div class="chain-card"><span class="ic"><svg class="icon"><use href="assets/sprite.svg#ic-factory"></use></svg></span><h4>Manufacturers</h4><ul><li>Direct reach to shops and customers</li><li>Control over price, offers and insights</li></ul></div>
     </div>
-    <p class="reveal" style="margin-top:24px;"><a class="btn btn-primary" href="opportunity.html">See the Opportunity <svg class="icon"><use href="assets/sprite.svg#ic-arrow-right"></use></svg></a></p>
+    <p class="reveal" style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;"><a class="btn btn-primary" href="opportunity.html">See the Opportunity <svg class="icon"><use href="assets/sprite.svg#ic-arrow-right"></use></svg></a><a class="btn btn-ghost-light" href="retailers.html">For Retailers</a><a class="btn btn-ghost-light" href="distributors.html">For Distributors</a><a class="btn btn-ghost-light" href="manufacturers.html">For Manufacturers</a><a class="btn btn-ghost-light" href="franchise-opportunity.html">Franchise Opportunity</a></p>
   </div>
 </section>
- 
+
 <section class="section bg-dark" id="category">
   <div class="wrap">
     <div class="section-head on-dark reveal">
@@ -206,7 +221,7 @@
     <p class="reveal" style="margin-top:28px;font-size:14.5px; color:rgba(255,255,255,.55); font-style:italic; max-width:760px;">Automobile is live today; grocery, restaurant, sports and textiles launch soon. RoadMate is being built as a global product: one platform connecting markets across India and the world.</p>
   </div>
 </section>
- 
+
 <section class="section">
   <div class="wrap">
     <div class="cta-band reveal">
@@ -218,7 +233,7 @@
     </div>
   </div>
 </section>
- 
+
 <footer>
   <div class="wrap">
     <div class="foot-grid">
@@ -236,6 +251,12 @@
       </div>
       <div class="foot-col">
         <h5>Partner</h5>
+        <a href="franchise-opportunity.html">Franchise Opportunity</a>
+        <a href="industries.html">Industries</a>
+        <a href="partnership-opportunity.html">Partnership Opportunity</a>
+        <a href="retailers.html">For Retailers</a>
+        <a href="distributors.html">For Distributors</a>
+        <a href="manufacturers.html">For Manufacturers</a>
         <a href="partnership.html">Partnership Model</a>
         <a href="why-invest.html">Why Invest</a>
         <a href="enquire.html">Become a Partner</a>
